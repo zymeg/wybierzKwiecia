@@ -65,6 +65,7 @@ function podsumowanie(){
             i++
             if(i == colors.length) i = 0
         }, 517)
+        alert("Jesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\nJesteś gotowy?\n")
     }else {
         document.querySelector("#gra").style.display = 'none'
         document.querySelector("#podsumowanie").style.display = 'flex'

@@ -145,19 +145,20 @@ body{
     justify-content: center;
     cursor: default;
     user-select: none;
+    padding: 1rem;
 
     * {
         margin: 1rem;
     }
 
     h1{
-        font-size: 4rem;
-        letter-spacing: .7rem;
+        font-size: 4.5rem;
+        letter-spacing: .9rem;
         font-weight: 300;
     }
 
     h2{
-        font-size: 2.7rem;
+        font-size: 3rem;
         letter-spacing: .5rem;
         font-weight: 400;
     }
@@ -167,11 +168,15 @@ body{
         letter-spacing: .1rem;
         font-weight: 200;
         margin: 2rem auto;
+        text-align: center;
+        line-height: 2.5rem;
 
         span{
-            font-weight: 800;
+            font-weight: 600;
             text-decoration: underline;
             font-size: 1.7rem;
+            letter-spacing: .5rem;
+            text-transform: uppercase;
         }
     }
 }
