@@ -55,6 +55,8 @@ function start(){
 
 function podsumowanie(){
     if(points >= 2){
+        let audio = new Audio('../src/harnas.mp3');
+        audio.play();
         document.querySelector("#gra").style.display = 'none'
         document.querySelector("#zaproszenie").style.display = 'flex'
         let i = 0 
@@ -62,7 +64,7 @@ function podsumowanie(){
             document.querySelector("#zaproszenie").style.backgroundColor = colors[i]
             i++
             if(i == colors.length) i = 0
-        }, 500)
+        }, 517)
     }else {
         document.querySelector("#gra").style.display = 'none'
         document.querySelector("#podsumowanie").style.display = 'flex'
