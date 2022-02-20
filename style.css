@@ -192,7 +192,7 @@ body {
 }
 
 #zaproszenie * {
-  margin: 1rem;
+  margin: 1rem auto;
 }
 
 #zaproszenie h1 {
@@ -205,13 +205,13 @@ body {
   font-size: 3rem;
   letter-spacing: .5rem;
   font-weight: 400;
+  margin: 2rem auto;
 }
 
 #zaproszenie p {
   font-size: 1.3rem;
   letter-spacing: .1rem;
   font-weight: 200;
-  margin: 2rem auto;
   text-align: center;
   line-height: 2.5rem;
 }
