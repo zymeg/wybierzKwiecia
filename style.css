@@ -237,6 +237,26 @@ body {
      width: 100%;
      padding: 1rem 0;
    }
+#zaproszenie{
+  padding: .2rem;
+}
+#zaproszenie *{
+  margin: .2rem;
+}
+#zaproszenie h1{
+  font-size: 3rem;
+  letter-spacing: .6rem
+}
+#zaproszenie h2{
+  font-size: 2.5rem;
+  letter-spacing: .4rem
+}
+#zaproszenie p{
+  line-height: 1.7rem
+}
+
+
+
 
 }
 /*# sourceMappingURL=style.css.map */
