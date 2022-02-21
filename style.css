@@ -223,4 +223,11 @@ body {
   letter-spacing: .5rem;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 600px) {
+  #gra #choices .option .photo img {
+      height: auto;
+      width: 100%;
+    }
+}
 /*# sourceMappingURL=style.css.map */
