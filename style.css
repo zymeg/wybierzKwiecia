@@ -225,9 +225,18 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  #gra #choices .option .photo{
+      height: 50%;
+      width: 100%;
+    }
   #gra #choices .option .photo img {
       height: auto;
       width: 100%;
     }
+  #gra #choices {
+     width: 100%;
+     padding: 1rem 0;
+   }
+
 }
 /*# sourceMappingURL=style.css.map */
